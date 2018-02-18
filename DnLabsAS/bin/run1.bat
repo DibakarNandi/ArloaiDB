@@ -1,1 +1,1 @@
-start java -jar DnLabsAS_0_1_beta.jar
+start java -jar DnLabsAS_0_2_beta.jar
