@@ -1,0 +1,1 @@
+ArloaiDb.exe start -node
