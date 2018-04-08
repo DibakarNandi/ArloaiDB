@@ -1,1 +1,0 @@
-ImmenseDb start -node
