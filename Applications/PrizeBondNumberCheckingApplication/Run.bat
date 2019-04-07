@@ -1,0 +1,2 @@
+spla LotteryPrize.spla
+pause

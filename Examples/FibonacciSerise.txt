@@ -1,0 +1,13 @@
+!! SPLA Fibonacci series up to max     
+*** $FibonacciSerise:
+	#start<str arg[]>:
+		fibonacci<1000>;
+	#fibonacci<int max>:		
+		int a=0;
+		int b=1;
+		int c=0;
+		@@ a<max:
+			<<''+a+' ';
+			c=a+b;
+			a=b;
+			b=c;

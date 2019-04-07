@@ -1,0 +1,73 @@
+~~
+~   LotteryPrize.spla
+~
+~   LotteryPrize
+~
+~   Copyright (C) 2019 n-labs.org
+~
+~   This source code is provided 'as-is', without any express or implied
+~   warranty. In no event will the author be held liable for any damages
+~   arising from the use of this software.
+~
+~   Permission is granted to anyone to use this software for any purpose,
+~   including commercial applications, and to alter it and redistribute it
+~   freely, subject to the following restrictions:
+~
+~   1. The origin of this source code must not be misrepresented; you must not
+~      claim that you wrote the original source code. If you use this source code
+~      in a product, an acknowledgment in the product documentation would be
+~      appreciated but is not required.
+~
+~   2. Altered source versions must be plainly marked as such, and must not be
+~      misrepresented as being the original source code.
+~
+~   3. This notice may not be removed or altered from any source distribution.
+~
+~   SPLA splalang.n-labs.org
+~   @author  Dibakar Nandi
+~   @version 1.0
+~   @since   2019-03-26 
+~~
+
+!! Lottery Prize testing
+
+*** $LotteryPrize:
+~~
+~ Start Method of a SPLA program
+~ 
+~ <pre>
+~   Start Method of a SPLA program
+~ </pre>
+~
+~ @param  arg to read command line argument
+~ @return no
+~ @since 0.1
+~~
+	#start<str arg[]>:
+		int totalNumbers=0;
+		str a[1000];
+		str data='';
+		File number;
+		number.open<'Numbers.csv','r'>;
+		data=number.read<>;
+		@@ data!='EOF':
+			a[totalNumbers]=data;
+			totalNumbers+=1;
+			data=number.read<>;
+		<<'\nTotal Number found '+totalNumbers+'\n';
+!!		@@ int i=0 to totalNumbers:
+!!			<<a[i];
+		
+		File prize;
+		int isFound=0;
+		prize.open<'Prize.csv','r'>;
+		data=prize.read<>;
+		@@ data!='EOF':
+!!			<<data;
+			@@ int i=0 to totalNumbers:
+				?? a[i]==data:
+					<<'Wining number '+data+'\n';
+					isFound=1;
+			data=prize.read<>;
+		?? isFound==0:
+			<<'Better try next time :)\n';
