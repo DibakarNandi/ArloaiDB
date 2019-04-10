@@ -1,0 +1,56 @@
+~~
+~   FibonacciSerise.spla
+~
+~   SPLA FibonacciSerise
+~
+~   Copyright (C) 2019 n-labs.org
+~
+~   This source code is provided 'as-is', without any express or implied
+~   warranty. In no event will the author be held liable for any damages
+~   arising from the use of this software.
+~
+~   Permission is granted to anyone to use this software for any purpose,
+~   including commercial applications, and to alter it and redistribute it
+~   freely, subject to the following restrictions:
+~
+~   1. The origin of this source code must not be misrepresented; you must not
+~      claim that you wrote the original source code. If you use this source code
+~      in a product, an acknowledgment in the product documentation would be
+~      appreciated but is not required.
+~
+~   2. Altered source versions must be plainly marked as such, and must not be
+~      misrepresented as being the original source code.
+~
+~   3. This notice may not be removed or altered from any source distribution.
+~
+~   SPLA splalang.n-labs.org
+~   @author  Dibakar Nandi
+~   @version 0.2.0
+~   @since   2019-04-10 
+~~
+
+!! Welcome to SPLA this is single line comment
+
+*** $FibonacciSerise:
+~~
+~ Start Method of a SPLA program
+~ 
+~ <pre>
+~   Start Method of a SPLA program
+~ </pre>
+~
+~ @param arg to read command line argument
+~ @return no
+~ @since 0.2
+~~
+	#start<str arg[]>:
+		fibonacci<1000>;
+	#fibonacci<int max>:		
+		int a=0;
+		int b=1;
+		int c=0;
+		@@ a<max:
+			<<<''+a+' ';
+			c=a+b;
+			a=b;
+			b=c;
