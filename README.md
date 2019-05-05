@@ -1,12 +1,12 @@
-Spla
+Spla 0.2
 ---
-<img src="logo.png" width="60%" height="60%" />
+<img src="logo.png" width="30%" height="30%" />
 
 *Solve complex program in a simple way*.
 
 
 
-Try It
+Download Now
 ---
 
 [http://splalang.n-labs.org/](http://splalang.n-labs.org/)
