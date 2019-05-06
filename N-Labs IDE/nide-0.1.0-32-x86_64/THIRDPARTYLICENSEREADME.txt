@@ -1,6 +1,6 @@
 DO NOT TRANSLATE OR LOCALIZE.
 
-%% The following software may be included in this product: RSyntaxTextArea v1.0; Use of any of this software is governed by the terms of the license below: 
+%% The following software may be included in this product: RSyntaxTextArea v2.0; Use of any of this software is governed by the terms of the license below: 
 Copyright (c) 2012, Robert Futrell
 All rights reserved.
 
