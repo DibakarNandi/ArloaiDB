@@ -1,4 +1,4 @@
-Spla 0.2
+Release version : Spla 0.3.0
 ---
 <img src="logo.png" width="30%" height="30%" />
 
