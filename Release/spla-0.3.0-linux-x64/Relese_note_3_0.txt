@@ -4,10 +4,12 @@
 					        Version 0.3.0
 					  Release date: 2019–05–10
 Add
+-----------------------
 • File I/O
 • Exception Handling
 • Date and Time
-• Module
+
 
 Update
+-----------------------
 • String functions

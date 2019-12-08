@@ -9,7 +9,7 @@ Spla 0.2
 Download Now
 ---
 
-[http://splalang.n-labs.org/](http://splalang.n-labs.org/)
+[http://splalang.n-labs.org/](http://spla.n-labs.org/)
 
 
 
@@ -29,7 +29,7 @@ Stack Overflow
 Mailing lists
 ---
 
-[splalang@n-labs.org](splalang@n-labs.org)
+[spla@n-labs.org](spla@n-labs.org)
 
 
 
